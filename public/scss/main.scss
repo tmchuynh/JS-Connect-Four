@@ -35,12 +35,27 @@ body {
     transform: translateX(-50%);
     width: 165px;
     background-color: #f7f7f7;
-    font-size: 1.7em;
+    font-size: 1.7rem;
     font-family: "Lobster", cursive;
     color: #2d2d2d;
-    padding: .3em;
-    margin-top: .7em;
-    border-radius: 3.2em;
+    padding: .3rem;
+    margin-top: .7rem;
+    border-radius: 3.2rem;
+}
+
+.timer {
+    width: 165px;
+    background-color: #f7f7f7;
+    font-size: 1.7rem;
+    font-family: "Lobster", cursive;
+    color: #2d2d2d;
+    padding: .3rem;
+    margin-top: .7rem;
+    border-radius: 3.2rem;
+    transform: translateX(-50%);
+    filter: drop-shadow(0 0.1875em 0.3125em rgba(228, 13, 13, 0.8));
+    flex-direction: column;
+    margin: 2rem auto;
 }
 
 #board {
